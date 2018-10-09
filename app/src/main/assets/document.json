@@ -1,0 +1,87 @@
+[
+  {
+    "patientEscalateDetails": {
+      "doctorId": "DR00000001",
+      "date": "2018-09-21 00:00:00",
+      "hospitalId": "HL00000001",
+      "modeOfJoining": "Operation",
+      "noOfDays": "6",
+      "appointmentId": "DAB00000001"
+    },
+    "billInfoList": [
+      {
+        "billId": "BL0000000001",
+        "billAmount": "100000",
+        "billDetails": "Operation",
+        "billIssuedDate": "2018-09-21",
+        "billIssuedBy": "HM00000001",
+        "billIssuedAuthority": "Management",
+        "receiptId": "RP0000000002",
+        "paidBillAmount": "50000",
+        "diffBillAmount": "50000",
+        "billPaidDate": "2018-09-30",
+        "billPaidBy": "Kumar",
+        "receiptGeneratedBy": "UR00000001"
+      },
+      {
+        "billId": "BL0000000002",
+        "billAmount": "50000",
+        "billDetails": "Maintainance",
+        "billIssuedDate": "2018-09-21",
+        "billIssuedBy": "HM00000001",
+        "billIssuedAuthority": "Management",
+        "receiptId": "RP0000000003",
+        "paidBillAmount": "50000",
+        "diffBillAmount": "0",
+        "billPaidDate": "2018-09-21",
+        "billPaidBy": "",
+        "receiptGeneratedBy": ""
+      }
+    ],
+    "hospitalJoiningInfo": {
+      "bedNo": "1",
+      "roomNo": "1"
+    }
+  },
+  {
+    "patientEscalateDetails": {
+      "doctorId": "DR00000001",
+      "date": "2018-09-21 00:00:00",
+      "hospitalId": "HL00000001",
+      "modeOfJoining": "Operation",
+      "noOfDays": "10",
+      "appointmentId": "DAB00000001"
+    },
+    "billInfoList": [
+      {
+        "billId": "BL0000000001",
+        "billAmount": "120000",
+        "billDetails": "Operation",
+        "billIssuedDate": "2018-09-21",
+        "billIssuedBy": "HM00000001",
+        "billIssuedAuthority": "Management",
+        "receiptId": "RP0000000002",
+        "paidBillAmount": "100000",
+        "diffBillAmount": "20000",
+        "billPaidDate": "2018-09-21",
+        "billPaidBy": "Self/Patient",
+        "receiptGeneratedBy": "UR00000001"
+      },
+      {
+        "billId": "BL0000000002",
+        "billAmount": "50000",
+        "billDetails": "Maintainance",
+        "billIssuedDate": "2018-09-21",
+        "billIssuedBy": "HM00000001",
+        "billIssuedAuthority": "Management",
+        "receiptId": "",
+        "paidBillAmount": "50000",
+        "diffBillAmount": "0",
+        "billPaidDate": "2018-09-21",
+        "billPaidBy": "",
+        "receiptGeneratedBy": ""
+      }
+    ],
+    "hospitalJoiningInfo": null
+  }
+]
